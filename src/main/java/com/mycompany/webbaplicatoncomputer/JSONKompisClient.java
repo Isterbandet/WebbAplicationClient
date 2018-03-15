@@ -78,6 +78,7 @@ public class JSONKompisClient {
         
         kompis.tabortKompis("Freddan");//4
         kompis.listaKompisar();//5
+        kompis.addaEnKompis();
         
     
         
