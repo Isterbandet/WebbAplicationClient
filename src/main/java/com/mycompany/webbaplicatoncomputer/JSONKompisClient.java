@@ -49,6 +49,7 @@ public class JSONKompisClient {
         .accept(MediaType.APPLICATION_JSON).get(String.class);
         
         Kompisar[] kompis = gson.fromJson(jsonString, Kompisar[].class);
+        
         for (Kompisar k : kompis){
             System.out.println("Person" + k.getNamn() + "Nummreva" + k.getNummer() );
         }
